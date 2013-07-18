@@ -8,7 +8,12 @@
   <packaging>jar</packaging>
 
   <name>testing-gitflow</name>
-  <url>http://maven.apache.org</url>
+  
+	<scm>
+		<connection>scm:git:D:/git_bare/testing-gitflow.git</connection>
+		<developerConnection>scm:git:D:/git_bare/testing-gitflow.git</developerConnection>
+		
+	</scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
