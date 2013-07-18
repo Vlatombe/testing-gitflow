@@ -26,17 +26,30 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.atlassian.maven.plugins</groupId>
+				<artifactId>maven-jgitflow-plugin</artifactId>
+				<version>1.0-alpha8</version>
+				<configuration>
+					<squash>true</squash>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<distributionManagement>
-    <repository>
-      <id>local-repo</id>
-      <name>Local repository</name>
-      <url>file://localrepo</url>
-    </repository>
+		<repository>
+			<id>local-repo</id>
+			<name>Local repository</name>
+			<url>file://localrepo</url>
+		</repository>
 		<snapshotRepository>
-      <id>local-repo</id>
-      <name>Local repository</name>
-      <url>file://localrepo</url>
-    </snapshotRepository>
-  </distributionManagement>
+			<id>local-repo</id>
+			<name>Local repository</name>
+			<url>file://localrepo</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
