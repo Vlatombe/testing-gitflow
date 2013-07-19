@@ -3,7 +3,7 @@
 
 	<groupId>net.latombe</groupId>
 	<artifactId>testing-gitflow</artifactId>
-	<version>1.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>testing-gitflow</name>
@@ -11,7 +11,7 @@
 	<scm>
 		<connection>scm:git:D:/git_bare/testing-gitflow.git</connection>
 		<developerConnection>scm:git:D:/git_bare/testing-gitflow.git</developerConnection>
-		<tag>1.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
